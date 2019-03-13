@@ -1,0 +1,30 @@
+{
+  "name": "ahmet-orman",
+  "version": "1.0.0",
+  "description": "Mühendislik hesaplamalarında gerekli kolaylığı sağlar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "adin": "echo 'Benim Adım Ahmet'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "muhendislik",
+    "hesap",
+    "paket"
+  ],
+  "author": "Ahmet ORMAN",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.4.19",
+    "nodemailer": "^5.1.1",
+    "simple-is": "^0.2.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imator/ahmet-orman.git"
+  }
+}
